@@ -33,7 +33,7 @@ body, html {
   font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  //line-height: 1.5;
   background-color: $color-grey-light-2;
 
   @include respond(big-desktop){
