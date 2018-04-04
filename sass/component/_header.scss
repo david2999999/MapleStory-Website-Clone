@@ -1,0 +1,16 @@
+.header{
+
+  &__navbar1{
+    height: 4.4rem;
+    background-color: #272b33;
+
+    &__container{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__login-signup{
+      margin: 1rem 2rem;
+    }
+  }
+}

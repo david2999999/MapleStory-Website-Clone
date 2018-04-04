@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: inherit; }
+
+a:active, a:visited {
+  text-decoration: none !important; }
+
+a:hover {
+  text-decoration: none !important; }
+
+body, html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: #eeeeee; }
+  @media only screen and (min-width: 112.5em) {
+    body, html {
+      font-size: 62.5%; } }
+  @media only screen and (max-width: 75em) {
+    body, html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 62.5em) {
+    body, html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    body, html {
+      font-size: 45%; } }
+
+.header__navbar1 {
+  height: 4.4rem;
+  background-color: #272b33; }
+  .header__navbar1__container {
+    display: flex;
+    justify-content: space-between; }
+  .header__navbar1__login-signup {
+    margin: 1rem 2rem; }
+
+.login-btn, .signup-btn {
+  width: 8rem;
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 3px 8px 3px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all .2s;
+  color: white; }
+
+.login-btn {
+  border: 1px solid #0aa0d2;
+  color: #0aa0d2; }
+  .login-btn:hover {
+    color: #4dc8f1; }
+
+.signup-btn {
+  border: 1px solid #91b610;
+  color: #91b610;
+  margin-left: 10px; }
+  .signup-btn:hover {
+    color: #a3cc12; }
+
+.nexon-logo {
+  width: 6.3rem;
+  height: 1.3rem;
+  margin: 1.4rem 0 0 1.6rem; }
