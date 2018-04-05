@@ -3,3 +3,52 @@
   background-size: cover;
   padding-bottom: 60rem;
 }
+
+
+.news-update{
+  background: url("../img/bg_ghosted_grey-min.jpg") no-repeat 50% 0;
+  background-size: cover;
+  padding: 10rem;
+
+  &__container{
+    //height: 100rem;
+    width: 107rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__ul-square{
+    display: flex;
+    justify-content: space-between;
+
+    &__li{
+      width: 52.4rem;
+
+      &-top{
+        height: 29.4rem;
+        position: relative;
+
+        &__img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          overflow: hidden;
+        }
+
+        &__banner{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+
+      &-bottom{
+        background-color: darkred;
+        height: 15.7rem;
+      }
+
+    }
+  }
+
+}
