@@ -1,0 +1,24 @@
+.button-secondary{
+  color: darkblue;
+  background-color: transparent;
+  display: block;
+  font-size: 2.3rem;
+  font-weight: 700;
+  width: 37rem;
+  padding: 1.3rem 0 1.3rem 0;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid darkblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Titillium Web",arial,sans-serif;
+  transition: all .3s;
+  margin: 0 auto;
+
+  &:hover{
+    background: darkorange;
+    color: white;
+    border: 2px solid darkorange;
+
+  }
+}

@@ -18,4 +18,10 @@
     position: relative;
   }
 
+  &__button{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+  }
 }
