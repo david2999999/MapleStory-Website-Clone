@@ -8,6 +8,7 @@
     &__li{
       width: 52.4rem;
       box-shadow: $box-shadow-light;
+      margin-bottom: 2rem;
 
       &-top{
         height: 29.4rem;
@@ -55,6 +56,7 @@
           font-size: 1.6rem;
           font-family: "Titillium Web",arial,sans-serif;
           position: absolute;
+          text-transform: uppercase;
         }
 
         &__timestamp{
@@ -66,6 +68,7 @@
           bottom: 2rem;
           right: 2rem;
           text-decoration: none;
+
 
           &:hover{
             color: deepskyblue;

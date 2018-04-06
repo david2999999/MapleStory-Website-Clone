@@ -4,7 +4,7 @@
   font-size: 1.8rem;
   font-weight: 500;
   font-family: "Titillium Web",arial,sans-serif;
-  padding: 1rem 2rem;
+  padding: .5rem 2rem;
   z-index: 10;
   line-height: 1.6;
 
@@ -17,7 +17,11 @@
   }
 
   &-blue{
+    background-color: royalblue;
+  }
 
+  &-orange{
+    background-color: darkorange;
   }
 
 
@@ -34,6 +38,14 @@
 
     &-red{
       background-color: #b20047;
+    }
+
+    &-blue{
+      background-color: royalblue;
+    }
+
+    &-orange{
+      background-color: darkorange;
     }
   }
 }
